@@ -5,10 +5,11 @@
         <title>Gifs de gatitos divertidos</title>
     </head>
     <body style="background-color:rgb(252, 224, 229);">
-        <h1 align=center  style="color:rgb(163, 18, 47); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+         <h1 align=center  style="color:rgb(163, 18, 47); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
             GATITOS DIVERTIDOS</h1>
         <p align=center  style="color:teal; font-family:Arial, Helvetica, sans-serif">
             Gifs de gatos un <strong>poco</strong> bobos</p>
+        <!--  
         <ul style="color:rgb(143, 86, 86); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" >
                 <li>Bobocho lengüita</li><br/>
         <div id="foto-1" class"foto">
@@ -20,5 +21,43 @@
         <img src="tumblr_nqj70kngmG1s0mbfho1_400.gif" height="200"/>
         </div>
         </ul>
+        --> 
+        <table align=center >
+            <tr>
+                <td><img src="tenor.gif"/></td>
+                <td> <img src="tumblr_nqj70kngmG1s0mbfho1_400.gif" height="220"/></td>
+                <td> <img src="Funny-Cat-Gifs-for-Laugh-2.gif" height="220"></td>
+                <td> <img src="ul0sg06j3zb01.gif" height="220"></td>
+            </tr>
+        </table>
+        <br/>
+            <form align=center style="color:rgb(163, 18, 47); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"  action="" method="GET">
+                <label for="name">Nombre</label>
+                <input type="text"name="nombre"/><br/><br/>
+                <label for="apellido">Apellido</label>
+                <input type="text"name="apellido"/><br/><br/>
+                <label for="e-mail">Dirección de e-mail</label>
+                <input type="text"name="e-mail"/><br/><br/>
+                <label for="genero">Femenino</label>
+                <input type="radio" name="genero" value="Femenino"/>
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" value="Masculino"/>
+                <label for="genero">Otro</label>
+                <input type="radio" name="genero" value="Otro"/><br/><br/>
+                <p>Edad:</p>
+                <select style="color:rgb(163, 18, 47); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" name="Select" multiple="true">
+                    <option value="1">Menos de 18 años</option>
+                    <option value="2">18-25 años</option>
+                    <option value="3">25-35 años</option>
+                    <option value="4">35-50 años</option>
+                    <option value="5">Más de 50 años</option>
+                </select><br/><br/>
+                <p>Comentario:</p>
+                <textarea rows="4" columns="50"></textarea><br/><br/>
+
+                <input type="button" name="guardar" value="Guardar"/>
+            </form>
+ 
+        
     </body>
 </html>
